@@ -1,4 +1,4 @@
-function math (argOne, argTwo, argThree) {
-  console.log(math(argOne, argTwo, argThree));
+function math (firstArg, secondArg, thirdArg) {
+  return secondArg * thirdArg + firstArg;
 };
-math(53, 61, 67);
+console.log(math(53,61,67));
